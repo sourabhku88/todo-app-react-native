@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "demo",
-    "slug": "demo",
+    "name": "Todo",
+    "slug": "sourabh-first-todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,9 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sourabh.todoapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.sourabh.todoapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1557f343-3f92-438a-99cd-4ba90b0988a9"
+      }
     }
   }
 }
